@@ -49,7 +49,6 @@ ActiveRecord::Schema.define(version: 2018_01_11_221058) do
     t.string "name"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.integer "question_id"
   end
 
   create_table "questions", force: :cascade do |t|
@@ -57,7 +56,6 @@ ActiveRecord::Schema.define(version: 2018_01_11_221058) do
     t.string "content"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.integer "answer_id"
     t.integer "category_id"
   end
 
