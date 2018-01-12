@@ -3,9 +3,9 @@ class AnswersController < ApplicationController
 
   # GET /answers
   def index
-    @answers = Answer.all
+    answers = Answer.all
 
-    render json: @answers
+    render json: answers
   end
 
   # POST /answers
@@ -23,7 +23,7 @@ class AnswersController < ApplicationController
   private
     # Use callbacks to share common setup or constraints between actions.
     def set_answer
-      @answer = Answer.find(params[:id])
+      answer = Answer.find(params[:id])
     end
 
     # Only allow a trusted parameter "white list" through.
