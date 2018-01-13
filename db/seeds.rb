@@ -20,7 +20,7 @@ Question.create([
   },
   {
     title: "Batman",
-    content: "The main villin in the next Batman movie is ____",
+    content: "The main villain in the next Batman movie is ____",
     category_id: 1
   },
   {
