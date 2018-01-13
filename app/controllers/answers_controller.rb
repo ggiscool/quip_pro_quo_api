@@ -8,10 +8,23 @@ class AnswersController < ApplicationController
     render json: answers
   end
 
+  def update
+    answer = set_answer
+    answer.upvote += 1
+    
+    if answer.save
+      render json: answer
+    else
+      render json: answer.errors, status: :unprocessable_entity
+    end
+
+  end
+
   # POST /answers
   def create
     answer = Answer.new(answer_params)
     answer.question_id = params[:question_id]
+    answer.upvote = 0;
 
     if answer.save
       render json: answer, status: :created
