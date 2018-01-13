@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :users
   resources :categories, only: [:index, :show] do
     resources :questions, only: [:index, :show] do
       resources :answers, except: [:update, :destroy]
