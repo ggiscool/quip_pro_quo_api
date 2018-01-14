@@ -16,6 +16,8 @@
 # Ignore uploaded files in development
 /storage/*
 
+.env
+
 .byebug_history
 
 # Ignore master key for decrypting credentials and more.

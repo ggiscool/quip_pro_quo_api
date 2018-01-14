@@ -1,5 +1,9 @@
 Rails.application.routes.draw do
-  resources :users
+  resources :users do
+    collection do
+      post '/login', to: 'users#login'
+    end
+  end
   resources :categories, only: [:index, :show] do
     resources :questions, only: [:index, :show] do
       resources :answers, except: [:destroy]
