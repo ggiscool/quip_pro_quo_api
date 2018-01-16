@@ -143,7 +143,7 @@ Question.create([
   },
   {
     title: "Secret Sauce",
-    content: "The secret ingredient in McDonald's secret sauce is____",
+    content: "The secret ingredient in McDonald's secret sauce is ____",
     category_id: 3
   },
   {
@@ -162,7 +162,7 @@ Question.create([
     category_id: 3
   },
   {
-    title: "New menu Item",
+    title: "New Menu Item",
     content: "The next new menu item at Taco Bell will be ____",
     category_id: 3
   },
