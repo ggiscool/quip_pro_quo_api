@@ -73,7 +73,7 @@ Question.create([
   },
   {
     title: "Basketball",
-    content: "A basketball should really have been called this",
+    content: "A basketball should really have been called ____",
     category_id: 2
   },
   {
@@ -108,7 +108,7 @@ Question.create([
   },
   {
     title: "Tennis Raquet",
-    content: "A tennis raquet should have been called this",
+    content: "A tennis raquet should have been called ____",
     category_id: 2
   },
   {
@@ -168,52 +168,52 @@ Question.create([
   },
   {
     title: "New Instrument",
-    content: "The name of the next major instrument is",
+    content: "The name of the next major instrument is ____",
     category_id: 4
   },
   {
     title: "Newest Hit Song",
-    content: "The newest hit song will be",
+    content: "The newest hit song will be ____",
     category_id: 4
   },
   {
     title: "Best Band Name",
-    content: "A great band name is",
+    content: "A great band name is ____",
     category_id: 4
   },
   {
     title: "Bad Instrument",
-    content: "An instrument should never be named this",
+    content: "An instrument should never be named ____",
     category_id: 4
   },
   {
     title: "Piano",
-    content: "Another name for a piano is",
+    content: "Another name for a piano is ____",
     category_id: 4
   },
   {
     title: "Album Name",
-    content: "A great name for an album is",
+    content: "A great name for an album is ____",
     category_id: 4
   },
   {
     title: "Next Boy-Band",
-    content: "The next hit boy-band will be",
+    content: "The next hit boy-band will be ____",
     category_id: 4
   },
   {
     title: "Trumpet",
-    content: "Another name for a trumpet is",
+    content: "Another name for a trumpet is ____",
     category_id: 4
   },
   {
     title: "Worst Band Name",
-    content: "A band should never be called this",
+    content: "A band should never be called ____",
     category_id: 4
   },
   {
     title: "Band Tour",
-    content: "A great name for a tour is",
+    content: "A great name for a tour is ____",
     category_id: 4
   },
   {
