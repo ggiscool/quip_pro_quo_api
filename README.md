@@ -12,7 +12,7 @@
 
 
 ### Approach
-  We used mainly Javascript and Ruby to make a single-page web application. We wanted to make a fun app where users an add their own answers to a database of all users answers, and vote on whose is best.
+  We used mainly Javascript and Ruby to make a single-page web application. We wanted to make a fun app where users can add their own answers to a database of all users answers, and vote on whose is best. Ryan took the reins on the backend, Sean took command over the frontend and design, and GG took charge of authorization and deployment. Our group pair-programmed almost the entire project, instead of splitting all the tasks up, so we could all have a hand on all sides and gain more full-stack experience. 
 
 ### Technical Difficulties
   We had a good deal of trouble perfecting the authentication process, deploying to Heroku, allowing users to upvote an answer only once, and keeping the site one page. We worked through all issues as a team and triumphed over adversity.
@@ -47,25 +47,3 @@
 
 
 *For educational purposes only*
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
