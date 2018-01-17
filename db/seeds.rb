@@ -53,7 +53,7 @@ Question.create([
   },
   {
     title: "Starring Actor",
-    content: "The actor starring in the New Movie: 'Above the Law",
+    content: "The actor starring in the New Movie: 'Above the Law'",
     category_id: 1
   },
   {
